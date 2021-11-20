@@ -26,3 +26,7 @@
     padding: 25px;
     height: 100%;
 }
+
+.Navegador a:hover {
+    cursor: pointer;
+}
