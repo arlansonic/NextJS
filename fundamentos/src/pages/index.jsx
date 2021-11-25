@@ -15,6 +15,7 @@ export default function Home() {
             <Navegador texto="Navegação #01" destino="/navegacao" cor="green"/>
             <Navegador texto="Navegação #02" destino="/cliente/AM/123"/>
             <Navegador texto="Navegação #03" destino="/estado" cor="pink"/>            
+            <Navegador texto="Integração" destino="/integracao_1" cor="red"/>            
         </div>
     )
 }
