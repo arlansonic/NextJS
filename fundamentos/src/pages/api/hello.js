@@ -2,7 +2,9 @@
 
 export default function handler(req, res) {
     res.status(200).json({
-        name: 'Arlan Marreiro',
-        metodo: req.method
+        name: 'Teste de API',
+        metodo: req.method,
+        nome: req.query.nome,
+        idade: req.query.idade
     })
 }
