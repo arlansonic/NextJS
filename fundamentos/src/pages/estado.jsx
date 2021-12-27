@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Layout from "../components/Layout";
 
-export default function estado() {
+export default function Estado() {
     const [numero, setNumero] = useState(0) // React Hooks
         
     function incrementar() {        

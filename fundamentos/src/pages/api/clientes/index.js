@@ -1,7 +1,6 @@
 import handler from "../hello"
 
 export default function cliente(req, res) {
-
     if (req.method === "GET") {
         clienteGet(req, res)
     } else {
@@ -9,7 +8,7 @@ export default function cliente(req, res) {
     }
 }
 
-function cliente(req, res) {
+function clienteGet(req, res) {
     res.status(200).json({
         "id": 1,
         "nome": "Arlan Marreiro",
