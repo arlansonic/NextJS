@@ -9,7 +9,7 @@ export default function cliente(req, res) {
     }
 }
 
-function clienteGet(req, res) {
+function cliente(req, res) {
     res.status(200).json({
         "id": 1,
         "nome": "Arlan Marreiro",

@@ -5,6 +5,6 @@ export default function handler(req, res) {
         name: 'Teste de API',
         metodo: req.method,
         nome: req.query.nome,
-        idade: req.query.idade
+        idade: req.query.idade,
     })
 }
